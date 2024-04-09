@@ -59,9 +59,10 @@ button:hover{
    background-color: rgba(137, 43, 226, 0.746);
    border: 0;
 }
-
+p{
+    font-size: 2rem;
+}
 
 output {
     font-weight: bold;
-    font-size: 4rem;
 }
