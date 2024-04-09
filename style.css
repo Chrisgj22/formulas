@@ -36,16 +36,15 @@ label {
 }
 
 input{
-    max-width: 80vw;
+    max-width: 200px;
     border-color: blueviolet;
     font-size: 2rem;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 
 
 button {
-    min-width: 60vw;
-    max-width: 80vw;
+    width: 200px;
     border-radius: 50px;
     border: 2px;
     min-height: 3rem;
