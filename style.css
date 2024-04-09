@@ -62,8 +62,5 @@ button:hover{
 }
 p{
     font-size: 2rem;
-}
-
-output {
-    font-weight: bold;
+    margin: 10px;
 }
