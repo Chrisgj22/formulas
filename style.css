@@ -54,10 +54,12 @@ button {
     background-color: transparent;   
     font-size: 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
 }
 button:hover{
    background-color: rgba(137, 43, 226, 0.746);
-   border: 0;
+   color: #ffffff;
+   
 }
 p{
     font-size: 2rem;
