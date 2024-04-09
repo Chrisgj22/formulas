@@ -33,18 +33,21 @@ label {
 }
 
 input{
+    padding: 4px;
     width: 50vh;
+    min-height: 3rem;
 }
 
 
 button {
-    padding: 8px;
+    padding: 4px;
     margin-top: 8px;
     margin-bottom: 10px;
     border-radius: 50px;
     background: linear-gradient(to right,  #b498ed9b, #e591d1bd);
     border: 0;
     width: 50vh;
+    min-height: 3rem;
 
 }
 
