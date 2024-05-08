@@ -4,6 +4,10 @@ calc.addEventListener("click", function() {
 
     let a = parseFloat(document.getElementById('input_a').value);
     let b = parseFloat(document.getElementById('input_b').value);
+    let phrases = ["More work, less firepits!!😡", "You're welcome weirdo", "Another one!", "Looking for some checker plates?😂"];
+    const text = document.getElementById("result_text")
+    const textR = Math.floor(Math.random()* phrases.length )
+    text.textContent=phrases[textR]
 
     let c = (a * 0.7854) / 90;
     let cResult = c * b;
